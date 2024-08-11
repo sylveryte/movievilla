@@ -1,0 +1,11 @@
+meta {
+  name: healthcheck
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{url}}/healthcheck/mando
+  body: none
+  auth: none
+}
